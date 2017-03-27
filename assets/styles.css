@@ -1,0 +1,85 @@
+body {
+  font-family: 'Play', sans-serif;
+  background: #443986;
+  background: -moz-linear-gradient(left, #443986 0%, #5A57B4 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #443986), color-stop(100%, #5A57B4));
+  background: -webkit-linear-gradient(left, #443986 0%, #5A57B4 100%);
+  background: -o-linear-gradient(left, #443986 0%, #5A57B4 100%);
+  background: -ms-linear-gradient(left, #443986 0%, #5A57B4 100%);
+  background: linear-gradient(to right, #443986 0%, #5A57B4 100%);
+  color: #fff;
+}
+
+div {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 16px;
+  max-width: 600px;
+}
+
+.logo img {
+  -webkit-border-radius: 66px;
+  -moz-border-radius: 66px;
+  border-radius: 66px;
+  margin: 30px 0;
+}
+
+.name {
+  margin: 30px 0;
+}
+
+.name h1 {
+  display: inline;
+  color: #443986;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 15px 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.bio {
+  margin: 30px 0;
+  line-height: 24px;
+}
+
+.clients {
+  font-size: 13px;
+  line-height: 20px;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.contact {
+  margin: 40px 0;
+}
+
+.stack {
+  line-height: 30px;
+  margin: 30px 0 10px;
+}
+
+.stack ul {
+  list-style: none;
+  padding: 0;
+}
+
+.stack ul li {
+  display: inline;
+  margin: 0 10px;
+  color: #aAa7f4;
+  text-decoration: none;
+}
+
+a {
+  color: #aAa7f4;
+  text-decoration: none;
+  border-bottom: 1px #aAa7f4 dotted;
+}
+
+a:hover {
+  color: #fff;
+}
